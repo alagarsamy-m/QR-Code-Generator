@@ -1,12 +1,75 @@
-# React + Vite
+# QR Code Generator 🎯
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, fast, and responsive web application for generating and downloading QR codes instantly. Built with React and Vite for optimal performance.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Quick Start
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/alagarsamy-m/qr-code-generator.git
+cd qr-code-generator
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## 🛠️ Build for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` folder, ready to be deployed to any static hosting service.
+
+
+## 📁 Project Structure
+
+```
+qr-code-generator/
+├── public/
+│   └── qr-code.png          # App icon
+├── src/
+│   ├── assets/
+│   │   └── qr-code.png      # Logo
+│   ├── QrCodeGenerator.jsx  # Main component
+│   ├── QrCodeGenerator.css  # Styles
+│   └── main.jsx            # Entry point
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+
+## 🏗️ Tech Stack
+
+- **Frontend**: React 19 with Hooks
+- **Build Tool**: Vite for fast development and building
+- **Styling**: CSS3 with modern design principles
+- **API**: QRServer API for QR code generation
+- **Icons**: Custom assets and Google Fonts
+
+
+## ✨ Features
+
+- **Instant QR Code Generation** - Generate QR codes in real-time
+- **Customizable Size** - Adjust QR code dimensions as needed
+- **Download Capability** - Save generated QR codes as PNG images
+- **Responsive Design** - Works perfectly on desktop and mobile devices
+- **Clean UI** - Modern, intuitive interface with smooth animations
+- **No Backend Required** - Uses external QR server API for generation
