@@ -3,6 +3,7 @@
 *{
     font-family: "Libertinus Sans", sans-serif;
     box-sizing: border-box;
+    background-color: #000000;
 }
 
 .app-container{
@@ -42,6 +43,7 @@ input[type="text"] {
     width: 100%;
     font-size: 16px;
     border: 2px solid #3498db;
+    color: white;
     border-radius: 8px;
 }
 
@@ -75,6 +77,7 @@ button{
 
 .footer{
     margin-top: 30px;
+    color: white;
 }
 
 .footer a{

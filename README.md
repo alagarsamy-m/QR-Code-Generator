@@ -73,3 +73,7 @@ qr-code-generator/
 - **Responsive Design** - Works perfectly on desktop and mobile devices
 - **Clean UI** - Modern, intuitive interface with smooth animations
 - **No Backend Required** - Uses external QR server API for generation
+
+## Screenshot
+
+![Weather App Screenshot](src/assets/screenshots/Screenshot%202025-08-13%20102231.png)
